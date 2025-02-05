@@ -85,3 +85,4 @@
     
 })(jQuery);
 
+document.getElementById("contact").innerHTML = "contact";
