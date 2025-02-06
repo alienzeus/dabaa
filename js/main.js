@@ -85,4 +85,41 @@
     
 })(jQuery);
 
-document.getElementById("contact").innerHTML = "contact";
+// document.addEventListener("DOMContentLoaded", function () {
+//     const contentDiv = document.getElementById("contact");
+  
+//     // Handle click events on navigation links
+//     document.querySelectorAll("a.nav-link").forEach(link => {
+//       link.addEventListener("click", function (contact) {
+//         event.preventDefault(); // Prevent full page reload
+  
+//         const pageUrl = this.getAttribute("contact.html");
+  
+//         // Update the URL using pushState
+//         window.history.pushState({ pageUrl }, "", pageUrl);
+  
+//         // Update content dynamically
+//         loadPageContent(pageUrl);
+//       });
+//     });
+  
+//     // Simulate content loading based on the URL
+//     function loadPageContent(url) {
+//       const contentMap = {
+//         "/about": "This is the About page content.",
+//         "/services": "This is the Services page content.",
+//         "/contact": "This is the Contact page content."
+//       };
+  
+//       contentDiv.textContent = contentMap[url] || "Page not found.";
+//     }
+  
+//     // Handle browser back/forward navigation
+//     window.onpopstate = function (event) {
+//       if (event.state && event.state.pageUrl) {
+//         loadPageContent(event.state.pageUrl);
+//       }
+//     };
+//   });
+  
+  
